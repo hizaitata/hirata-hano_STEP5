@@ -1,0 +1,16 @@
+#display-area {
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#display-area.highlight {
+    background-color: yellow;
+    box-shadow: 0 0 0 3px #ffd166;
+}
+
+::highlight(display-area){ background-color: #ffeb3b;}
+
+.display-area {
+    color: #ffeb3b;
+}
